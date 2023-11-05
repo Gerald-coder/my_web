@@ -5,7 +5,7 @@ import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import { darkTheme } from "../utils/Themes";
 import HeroSection from "./components/HeroSection";
-// import Skills from "./components/Skills";
+import Skills from "./components/skills";
 // import Projects from "./components/Projects";
 // import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
@@ -44,10 +44,10 @@ function App() {
         <Navbar />
         <Body>
           <HeroSection />
-          {/* <Wrapper>
+          <Wrapper>
             <Skills />
-            <Experience />
-          </Wrapper> */}
+            {/* <Experience /> */}
+          </Wrapper>
           {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
           {/* <Wrapper>
             <Education />
