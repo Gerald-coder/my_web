@@ -40,7 +40,10 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiCssdeck size="3rem" />{" "}
+            <Span>
+              Ger <span style={{ color: "grey" }}>ald</span>
+            </Span>
           </a>
         </NavLogo>
         <MobileIcon>

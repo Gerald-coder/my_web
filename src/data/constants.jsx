@@ -239,21 +239,8 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Streamify - Video Player",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Streamify is a WebApp, a highly optimized web application with React, Redux, and TailwindCSS, featuring efficient search, lazy loading, live chat integration, and robust state management for enhanced user experience and code maintainability. Thoroughly tested for reliability using Jest.",
-    image:
-      "https://user-images.githubusercontent.com/105233916/269834976-5f943215-45ef-4e22-95c5-f6cfb69b1091.png",
-    tags: ["React Js", "JavaScript", "Jest", "Tailwind CSS", "Redux Toolkit"],
-    category: "web app",
-    github: "https://github.com/Bandinikhil/YoutubeClone",
-    webapp: "https://viideoplayer.netlify.app/",
-  },
-  {
     id: 0,
-    title: "KartStore ecommerce-WebApp",
+    title: "MyStore ecommerce",
     description:
       "Developed a full-stack webApp, Utilized React, Redux, Strapi, Node.js, and Stripe to create a user-centric e-commerce platform, offering an enriched shopping experience with secure authentication, a comprehensive catalog, and streamlined checkout. Boosted admin efficiency with a dedicated dashboard for effective product and order management",
     image:
@@ -267,32 +254,45 @@ export const projects = [
       "Redux Toolkit",
     ],
     category: "web app",
-    github: "https://kartstoree.netlify.app/",
-    webapp:
+    webapp: "https://kartstoree.netlify.app/",
+    github:
       "https://github.com/Bandinikhil/ecommerce_webApp/blob/main/README.md",
   },
   {
-    id: 1,
-    title: "JustEat - Food Ordering WebApp",
+    id: 9,
+    title: "Video Player",
+    date: "Jun 2023 - Jul 2023",
     description:
-      "Developed using live API integration with real-time data, displays with higher-order components, and a seamless shopping cart management system. Achieved a robust testing suite with 95% coverage using Jest.",
+      "Streamify is a WebApp, a highly optimized web application with React, Redux, and TailwindCSS, featuring efficient search, lazy loading, live chat integration, and robust state management for enhanced user experience and code maintainability. Thoroughly tested for reliability using Jest.",
     image:
-      "https://user-images.githubusercontent.com/105233916/276737551-eb210926-d9a0-4d4f-aab0-0355145e9905.png",
+      "https://user-images.githubusercontent.com/105233916/269834976-5f943215-45ef-4e22-95c5-f6cfb69b1091.png",
     tags: ["React Js", "JavaScript", "Jest", "Tailwind CSS", "Redux Toolkit"],
     category: "web app",
-    github: "https://github.com/Bandinikhil/FoodOrder-webApp",
-    webapp: "https://justeatwebapp.netlify.app/",
+    github: "https://github.com/Bandinikhil/YoutubeClone",
+    webapp: "https://viideoplayer.netlify.app/",
   },
-  {
-    id: 2,
-    title: "NetFlixGpt",
-    description:
-      "Developed Netflix with integrating GPT APIs to provide movie recommendations based on our mood. It features robust user authentication with Firebase, seamless movie data integration, a responsive TailwindCSS design, and an engaging GPT-powered recommendation engine for an enhanced user experience.",
-    image:
-      "https://user-images.githubusercontent.com/105233916/279334723-697e9845-7ba1-4707-8cc8-54a0c98b7716.png",
-    tags: ["React Js", "JavaScript", "Jest", "Tailwind CSS", "Redux Toolkit"],
-    category: "web app",
-    github: "https://github.com/Bandinikhil/netflix-gpt/blob/main/README.md",
-    webapp: "https://netfliixgpt.netlify.app/",
-  },
+  // {
+  //   id: 1,
+  //   title: "JustEat - Food Ordering WebApp",
+  //   description:
+  //     "Developed using live API integration with real-time data, displays with higher-order components, and a seamless shopping cart management system. Achieved a robust testing suite with 95% coverage using Jest.",
+  //   image:
+  //     "https://user-images.githubusercontent.com/105233916/276737551-eb210926-d9a0-4d4f-aab0-0355145e9905.png",
+  //   tags: ["React Js", "JavaScript", "Jest", "Tailwind CSS", "Redux Toolkit"],
+  //   category: "web app",
+  //   github: "https://github.com/Bandinikhil/FoodOrder-webApp",
+  //   webapp: "https://justeatwebapp.netlify.app/",
+  // },
+  // {
+  //   id: 2,
+  //   title: "NetFlixGpt",
+  //   description:
+  //     "Developed Netflix with integrating GPT APIs to provide movie recommendations based on our mood. It features robust user authentication with Firebase, seamless movie data integration, a responsive TailwindCSS design, and an engaging GPT-powered recommendation engine for an enhanced user experience.",
+  //   image:
+  //     "https://user-images.githubusercontent.com/105233916/279334723-697e9845-7ba1-4707-8cc8-54a0c98b7716.png",
+  //   tags: ["React Js", "JavaScript", "Jest", "Tailwind CSS", "Redux Toolkit"],
+  //   category: "web app",
+  //   github: "https://github.com/Bandinikhil/netflix-gpt/blob/main/README.md",
+  //   webapp: "https://netfliixgpt.netlify.app/",
+  // },
 ];
