@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const Button = styled.button`
@@ -124,6 +123,7 @@ const Link = styled.a`
   text-decoration: none;
 `;
 
+/* eslint-disable */
 const ProjectCards = ({ project, setOpenModal }) => {
   return (
     <Link href={project.webapp} target="_blank">

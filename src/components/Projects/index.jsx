@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import {
   Container,
@@ -6,11 +5,11 @@ import {
   Title,
   Desc,
   CardContainer,
- 
 } from "./projectsStyle";
+import PropTypes from "prop-types";
 import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "../../data/constants";
-
+/* eslint-disable */
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
   return (
