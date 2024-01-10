@@ -142,10 +142,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_r0916x5",
-        "template_ghpwtjj",
+        "service_vw4k0dd",
+        "template_jqsv5qp",
         form.current,
-        "rTPtGqNW0fi-sf9FE"
+        "rfhDFJnEhuNLEa61V"
       )
       .then(
         (result) => {
@@ -168,7 +168,11 @@ const Contact = () => {
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInputMessage
+            placeholder="reach out to me"
+            rows="4"
+            name="message"
+          />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
