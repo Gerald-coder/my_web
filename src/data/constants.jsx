@@ -214,7 +214,8 @@ export const projects = [
     description:
       "Developed a full-stack webApp, Utilized React, Redux, Strapi, Node.js, and Stripe to create a user-centric e-commerce platform, offering an enriched shopping experience with secure authentication, a comprehensive catalog, and streamlined checkout. Boosted admin efficiency with a dedicated dashboard for effective product and order management",
     image:
-      "https://user-images.githubusercontent.com/105233916/278854717-1239e73d-b75f-42c5-b6ba-08faea0bbba3.png",
+      // "https://user-images.githubusercontent.com/105233916/278854717-1239e73d-b75f-42c5-b6ba-08faea0bbba3.png",
+      "https://i.ibb.co/56BFqp1/ecom.jpg",
     tags: [
       "React Js",
       "JavaScript",
@@ -235,7 +236,8 @@ export const projects = [
     description:
       "Streamify is a WebApp, a highly optimized web application with React, Redux, and TailwindCSS, featuring efficient search, lazy loading, live chat integration, and robust state management for enhanced user experience and code maintainability. Thoroughly tested for reliability using Jest.",
     image:
-      "https://user-images.githubusercontent.com/105233916/269834976-5f943215-45ef-4e22-95c5-f6cfb69b1091.png",
+      // "https://user-images.githubusercontent.com/105233916/269834976-5f943215-45ef-4e22-95c5-f6cfb69b1091.png",
+      "https://i.ibb.co/FHpK07h/video-player.jpg",
     tags: ["React Js", "JavaScript", "Jest", "Tailwind CSS", "Redux Toolkit"],
     category: "web app",
     github: "https://github.com/Bandinikhil/YoutubeClone",
